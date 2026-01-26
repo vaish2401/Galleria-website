@@ -1,5 +1,9 @@
 import { Product } from './types';
-import img1 from './assets/img1.jpg'; // This imports your local image
+import img1 from './assets/img1.jpg';
+import img2 from './assets/img2.jpg';
+import img3 from './assets/img3.jpg';
+import img5 from './assets/img5.jpg';
+import img6 from './assets/img6.jpg';
 
 export const PRODUCTS: Product[] = [
   {
@@ -8,28 +12,25 @@ export const PRODUCTS: Product[] = [
     category: 'Seating',
     price: '$4,200',
     image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&q=80&w=1200',
-    description: 'A sculptural masterpiece carved from single-source Italian walnut, upholstered in premium bouclé fabric.',
-    size: 'large',
-    material: 'Walnut & Bouclé',
-    dimensions: 'W 85cm x D 90cm x H 75cm'
+    description: 'A sculptural masterpiece carved from single-source Italian walnut.',
+    size: 'large'
   },
   {
     id: '2',
     name: 'Minimalist Alabaster Table',
     category: 'Dining',
     price: '$6,850',
-    image: img1, // Correctly using the imported local image
-    description: 'Floating aesthetics meet timeless stone. The translucent alabaster top rests on a brushed brass pedestal.',
-    size: 'tall',
-    material: 'Alabaster & Brass'
+    image: img1,
+    description: 'The translucent alabaster top rests on a brushed brass pedestal.',
+    size: 'tall'
   },
   {
     id: '3',
     name: 'Monolith Nightstand',
     category: 'Bedroom',
     price: '$1,900',
-    image: 'https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?cs=srgb&dl=pexels-medhat-ayad-122846-447592.jpg&fm=jpg',
-    description: 'Brutalist inspiration softened for the modern sanctuary. Hand-finished charcoal concrete with gold inlay.',
+    image: img2,
+    description: 'Hand-finished charcoal concrete with gold inlay.',
     size: 'normal'
   },
   {
@@ -37,8 +38,8 @@ export const PRODUCTS: Product[] = [
     name: 'Silk-Lined Pendant',
     category: 'Lighting',
     price: '$2,150',
-    image: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=1200',
-    description: 'Diffuse warmth through layers of hand-spun raw silk. A statement of light and texture.',
+    image: img3,
+    description: 'A statement of light and texture.',
     size: 'normal'
   },
   {
@@ -46,8 +47,8 @@ export const PRODUCTS: Product[] = [
     name: 'Velvet Curvature Sofa',
     category: 'Seating',
     price: '$12,400',
-    image: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&q=80&w=1200',
-    description: 'An expansive curve designed for social intimacy. Wrapped in Belgian velvet of the highest grade.',
+    image: img5,
+    description: 'Wrapped in Belgian velvet of the highest grade.',
     size: 'large'
   },
   {
@@ -55,8 +56,8 @@ export const PRODUCTS: Product[] = [
     name: 'Abstract Obsidian Vase',
     category: 'Decor',
     price: '$850',
-    image: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&q=80&w=1200',
-    description: 'Sharp geometric cuts in volcanic glass, creating a play of light and shadow.',
+    image: img6,
+    description: 'Sharp geometric cuts in volcanic glass.',
     size: 'normal'
   }
 ];
